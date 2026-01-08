@@ -1,5 +1,6 @@
 package com.example.docscan
 
+import android.annotation.SuppressLint
 import android.content.ContentValues
 import android.content.Intent
 import android.net.Uri
@@ -55,6 +56,7 @@ import java.io.FileOutputStream
 import kotlin.text.insert
 
 class MainActivity : ComponentActivity() {
+    @SuppressLint("SuspiciousIndentation")
     @RequiresApi(Build.VERSION_CODES.Q)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
